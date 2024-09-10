@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estrela.css">
+    <title>Cadastro de pessoa fisica</title>
+</head>
+<body>
+    <div class="background">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+    </div>
+
+    <div class="form-container">
+        <form id="formPessoa">
+            <h1>Formulário Pessoa Fisica</h1>
+            <label for="Nome">Nome:</label>
+            <input type="text" id="Nome" name="nome" required>
+
+            <label for="CPF">CPF:</label>
+            <input type="text" id="CPF" name="cpf" required>
+
+            <label for="Telefone">Telefone:</label>
+            <input type="text" id="Telefone" name="telefone" required>
+
+            <button type="submit">Enviar</button>
+            <div id="message"></div>
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="estrelaJS.js"></script>
+</body>
+</html>
+
+    <!-- npx nodemon app.js -->

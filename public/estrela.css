@@ -1,0 +1,33 @@
+.stars, .stars2, .stars3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.stars {
+    width: 2px;
+    height: 2px;
+    animation: anim-stars 10s linear infinite;
+}
+
+.stars2 {
+    width: 1.5px;
+    height: 1.5px;
+    animation: anim-stars 20s linear infinite;
+}
+
+.stars3 {
+    width: 2.5px;
+    height: 2.5px;
+    animation: anim-stars 15s linear infinite;
+}
+
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-200px);
+    }
+}
